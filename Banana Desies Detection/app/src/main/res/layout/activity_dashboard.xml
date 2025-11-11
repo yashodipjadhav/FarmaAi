@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboardScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    android:padding="24dp"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:id="@+id/dashboardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Image preview -->
+        <ImageView
+            android:id="@+id/previewImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_gray_bg"
+            android:contentDescription="Selected image preview"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Take Photo Button -->
+        <Button
+            android:id="@+id/takePhotoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📷 Take Photo"
+            android:backgroundTint="#3C6808"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:elevation="3dp"
+            android:layout_marginBottom="12dp"
+            android:padding="12dp" />
+
+        <!-- Upload Photo Button -->
+        <Button
+            android:id="@+id/uploadPhotoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⬆️ Upload Photo"
+            android:backgroundTint="#689F38"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:elevation="3dp"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Prediction Result -->
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result will appear here"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:textColor="#333333"
+            android:background="@drawable/rounded_white_card"
+            android:elevation="3dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Feedback and Rating Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_white_card"
+            android:padding="20dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💬 Give Feedback"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#2E7D32"
+                android:layout_marginBottom="12dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:progressTint="#FFB300" />
+
+            <EditText
+                android:id="@+id/feedbackEditText"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Write your feedback..."
+                android:background="@drawable/rounded_gray_bg"
+                android:padding="12dp"
+                android:gravity="top"
+                android:textColor="#000000"
+                android:textColorHint="#888888"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/submitFeedbackBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit Feedback"
+                android:backgroundTint="#3C6808"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:elevation="3dp" />
+        </LinearLayout>
+
+        <!-- 🚪 Logout Button -->
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚪 Logout"
+            android:backgroundTint="#B71C1C"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:elevation="3dp"
+            android:padding="12dp"
+            android:layout_marginBottom="40dp" />
+
+    </LinearLayout>
+</ScrollView>

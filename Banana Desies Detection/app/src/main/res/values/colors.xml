@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#8692f7</color>
+    <color name="nav_icon_color">#000000</color>
+    <color name="nav_text_color">#000000</color>
+    <color name="primary_color">#4CAF50</color>
+    <color name="primaryColor">#20C997</color> <!-- Soft teal green -->
+    <color name="bottomNavInactive">#8E8E93</color>
+    <color name="teal_700">#00796B</color>
+    <color name="teal_50">#E0F2F1</color>
+    <color name="dark_gray">#666666</color>
+    <color name="red">#F20606</color>
+        <color name="purple_200">#BB86FC</color>
+        <color name="purple_500">#6200EE</color>
+        <color name="purple_700">#3700B3</color>
+        <color name="teal_200">#03DAC5</color>
+
+</resources>

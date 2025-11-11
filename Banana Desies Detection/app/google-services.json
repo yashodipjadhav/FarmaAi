@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699634038847",
+    "project_id": "bananadiseasedetection",
+    "storage_bucket": "bananadiseasedetection.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699634038847:android:8080f1a26d833289ce608a",
+        "android_client_info": {
+          "package_name": "com.example.banana_desies_detection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAywvgF392TC4LVGPA_6wbxmsH_asdRaic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
